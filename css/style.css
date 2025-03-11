@@ -7,7 +7,7 @@ body {
 }
 
 a {
-    color: #ff0000;
+    color: #0000ff;
     text-decoration: none;
 }
 
@@ -16,14 +16,14 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #ff0000;
+    color: #0000ff;
     text-shadow: 2px 2px #000;
 }
 
 button {
     background-color: #000;
-    color: #ff0000;
-    border: 2px solid #ff0000;
+    color: #0000ff;
+    border: 2px solid #0000ff;
     padding: 10px;
     font-family: 'Courier New', Courier, monospace;
     cursor: pointer;
@@ -34,14 +34,14 @@ button {
 }
 
 button:hover {
-    background-color: #ff0000;
+    background-color: #0000ff;
     color: #000;
 }
 
 input[type="text"] {
     background-color: #000;
     color: #fff;
-    border: 2px solid #ff0000;
+    border: 2px solid #0000ff;
     padding: 5px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px; /* Larger font size */
@@ -49,7 +49,7 @@ input[type="text"] {
 
 .game-link {
     background-color: #111;
-    border: 2px solid #ff0000;
+    border: 2px solid #0000ff;
     padding: 10px;
     margin: 10px;
     text-align: right;
@@ -64,7 +64,7 @@ input[type="text"] {
 }
 
 .game-link:hover {
-    background-color: #ff0000;
+    background-color: #0000ff;
     color: #000;
 }
 
@@ -93,7 +93,7 @@ input[type="text"] {
 .game-link-other {
     display: inline-block;
     background-color: #111;
-    border: 2px solid #ff0000;
+    border: 2px solid #0000ff;
     padding: 10px;
     margin: 5px;
     color: #fff;
@@ -105,7 +105,7 @@ input[type="text"] {
 }
 
 .game-link-other:hover {
-    background-color: #ff0000;
+    background-color: #0000ff;
     color: #000;
 }
 
@@ -116,4 +116,34 @@ input[type="text"] {
 
 .pin-button {
     bottom: 5px;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 60px; /* Add margin to the bottom to avoid overlap with footer */
+}
+
+footer {
+    background-color: #000000;
+    padding: 15px;
+    position: relative; /* Change position to relative */
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    text-align: center; /* Center the content */
+}
+
+footer a {
+    color: #0000ff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1rem;
+}
+
+footer a:hover {
+    color: #0000ff;
 }
